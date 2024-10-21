@@ -51,15 +51,13 @@ footer {
     display: flex;
     padding: 20px;
     background-color: #1F1F1F;
-    max-width: 100%;
+    max-width: 1200px;
     margin-left: 20px;
-    margin-top: 30px;
 }
 
 .logo-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 30%;
 }
 
@@ -92,9 +90,8 @@ footer {
 .nav-section {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 500px;
     align-items: center;
-    margin-left: 60px;
 }
 
 .line-Footer {
@@ -143,11 +140,11 @@ footer {
 }
 
 .contact-image-div div {
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
-.contact-image-div a{
-    display:block;
+a {
+    cursor: pointer;
 }
 
 main {
